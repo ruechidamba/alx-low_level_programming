@@ -1,20 +1,20 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
 /**
-* main - Entry point for writing entire base10 single digits
-*
-* Return: Always 0 (Success)
+* main - main block
+* Description: prints all single digit numbers of base 10
+* starting from 0, followed by a new line.
+* Return: 0
 */
 int main(void)
 {
-int integer;
+int c = 0;
 
-for (integer = '0' ; integer <= '9' ; integer++)
+while (c < 10)
 {
-putchar(integer);
+putchar(48 + c);
+c++;
 }
+
 putchar('\n');
 return (0);
 }
