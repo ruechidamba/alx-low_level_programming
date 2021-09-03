@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
 * print_sign - checks if letter provided is in fact a letter
 * @n: integer from which to check whether is positive, negative or zero
