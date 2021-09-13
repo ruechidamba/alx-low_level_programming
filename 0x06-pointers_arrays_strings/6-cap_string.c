@@ -34,7 +34,8 @@ return (0);
 */
 char *cap_string(char *s)
 {
-char *ptr = s  int foundDelimit = 1;
+char *ptr = s;
+int foundDelimit = 1;
 
 while (*s)
 {
